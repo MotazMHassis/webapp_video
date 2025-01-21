@@ -134,7 +134,7 @@
             // Constraints for getUserMedia
             var constraints = {
                 video: {
-                    facingMode: 'environment'  // 'user' for front camera, 'environment' for rear camera
+                    facingMode: 'user'  // 'user' for front camera, 'environment' for rear camera
                 },
                 audio: true,
             };
